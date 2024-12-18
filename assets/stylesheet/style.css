@@ -2,7 +2,8 @@
 .body {
     font-family: Arial, sans-serif;
     background-image: url(../img/levi-xu-dOhJtfXJZfw-unsplash.jpg);
-    background-size: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Header Section */
@@ -20,6 +21,10 @@ header {
     font-size: 1.5em;
     text-decoration: none;
     padding: 10px;
+}
+.home-btn:hover {
+    color: rgb(204, 221, 243);
+    /* bottom: 5px; */
 }
 #greeting {
     color: #fff;
