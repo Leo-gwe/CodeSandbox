@@ -4,6 +4,7 @@
     background-image: url(../img/levi-xu-dOhJtfXJZfw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Header Section */
@@ -11,6 +12,12 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 0;
     background-size: cover;
+    margin-bottom: 20px;
+    border-style: groove;
+}
+.nav {
+    background-color: rgba(17, 55, 77, 0.5);
+    position: relative;
 }
 .nav-links {
     display: flex;
@@ -22,11 +29,12 @@ header {
     color: #fff;
     font-size: 1.5em;
     text-decoration: none;
-    padding: 10px;
+    /* padding: 10px; */
+;
 }
 .home-btn:hover {
-    color: rgb(204, 221, 243);
-    /* bottom: 5px; */
+    color: rgb(64, 130, 206);
+    text-decoration: underline;
 }
 #greeting {
     color: #fff;
@@ -47,10 +55,27 @@ main {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    position: sticky;
 }
 .health-text {
     color: #fff;
     font-size: 1.2em;
     text-align: center;
     padding: 20px;
+}
+.health-text h2 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+.services-text {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+}
+
+.services {
+    border-color: aqua;
 }
