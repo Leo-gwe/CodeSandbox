@@ -10,6 +10,7 @@
 header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 0;
+    background-size: cover;
 }
 .nav-links {
     display: flex;
@@ -49,7 +50,7 @@ main {
 }
 .health-text {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     padding: 20px;
 }
