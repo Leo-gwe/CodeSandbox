@@ -8,7 +8,8 @@
 
 /* Header Section */
 header {
-    background-color: rgba(46, 109, 192, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
 }
 .nav-links {
     display: flex;
@@ -34,6 +35,19 @@ header {
 }
 
 #opening {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
+/* Main section */
+main {
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.health-text {
     color: #fff;
     font-size: 1.5em;
     text-align: center;
