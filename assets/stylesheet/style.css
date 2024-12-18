@@ -1,6 +1,25 @@
-header {
-    background-color: #5e99e6;
+/* Body styling */
+.body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/levi-xu-dOhJtfXJZfw-unsplash.jpg);
+    background-size: 50%;
+}
 
+/* Header Section */
+header {
+    background-color: rgba(46, 109, 192, 0.5);
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.home-btn {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px;
 }
 #greeting {
     color: #fff;
