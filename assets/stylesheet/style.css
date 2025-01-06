@@ -1,8 +1,7 @@
-
 /* Body styling */
 .body {
     font-family: Arial, sans-serif;
-    background-image: url(../img/levi-xu-dOhJtfXJZfw-unsplash.jpg);
+    background-image: url('../img/levi-xu-dOhJtfXJZfw-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,6 +71,7 @@ main {
     font-size: 2em;
     text-align: center;
     padding: 20px;
+    text-decoration: underline;
 }
 .services-text {
     color: #fff;
@@ -106,4 +106,17 @@ footer {
     margin-top: 20px;
     border-radius: 10px;
     padding: auto;
+}
+.links {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px;
+}
+#copywright {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    font-family: oswald;
 }
